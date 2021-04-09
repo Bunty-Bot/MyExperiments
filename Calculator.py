@@ -1,7 +1,9 @@
-#This code is made by Isha Kotasthane
+#This code is made by Shreyas Bapat
 #Calculator
-print("Hello welcome to the calculator!!!")
-print("NOTE:- PLEASE DON'T GIVE INVALID INPUT.")
+#ALL FUNCTIONS
+def greetings():
+    print("Hello welcome to the calculator!!!")
+    print("NOTE:- PLEASE DON'T GIVE INVALID INPUT.")
 def main():
     print("Which operation do you want to perform ?\n"
           "Press 1 for Addition(+)\n"
@@ -43,10 +45,13 @@ def again():
           "Press n for no.")
     i = input()
     if i=='y':
+        greetings()
         main()
         again()
     else:
         print("Thank you Visit Again!!!")
+#REAL CODE
+greetings()
 main()
 again()
 
